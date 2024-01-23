@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Si quieres ajustar la tipografía de algún elemento específico, agrégalo aquí */
+h1, h2, h3,p {
+    font-family: 'Poppins', sans-serif;
+} 
+
+.text1{
+    color: var(--Primary-Color, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 63.357px; /* 115.195% */
+} 
+
+.text2{
+    color: var(--Secondary-Text, #C5C5C5);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.36px;
+} 
+
+.Proyects{
+    font-family: Poppins;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: 35.748px; /* 102.137% */
+text-transform: uppercase;
+background: var(--Orange-Gradient, linear-gradient(180deg, #FF8660 0%, #D5491D 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.Expe{
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35.748px; /* 102.137% */
+    text-transform: uppercase;
+    background: var(--Blue-Gradient, linear-gradient(180deg, #5BADFF 0%, #1373D1 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
