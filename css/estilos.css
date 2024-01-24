@@ -2,6 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
 /* Si quieres ajustar la tipografía de algún elemento específico, agrégalo aquí */
 h1, h2, h3,p {
     font-family: 'Poppins', sans-serif;
